@@ -1,0 +1,128 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(11,1fr);
+    grid-template-rows: repeat(11, 1fr);
+    width: 100vh;
+    height:100vh;
+    margin:50px auto;
+    background:white;
+    border: 5px solid black;
+}
+
+div[class^="b"] {
+    border: 5px solid black;
+  }
+
+.b-1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background:blue;
+}
+
+.b-2{ 
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    background:white;
+}
+
+.b-3{ 
+    grid-column-start: 5;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background:red;
+}
+.b-4{ 
+    grid-column-start: 5;
+    grid-column-end: 8;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background:white;
+}
+.b-5{ 
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    background:yellow;
+}
+
+.b-6{ 
+    grid-column-start: 9;
+    grid-column-end: 12;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    background:white;
+}
+
+.b-7 { 
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 12;
+    background: white;
+}
+
+.b-8 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background: red;
+}
+
+.b-9 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 12;
+    background:blue;
+
+}
+
+.b-10 {
+    grid-column-start: 4;
+    grid-column-end: 8;
+    grid-row-start: 5;
+    grid-row-end: 9;
+    background: red;
+}
+
+.b-11 { 
+    grid-column-start: 8;
+    grid-column-end: 12;
+    grid-row-start: 5;
+    grid-row-end: 8;
+    background: blue;
+}
+
+.b-12 { 
+    grid-column-start: 4;
+    grid-column-end: 8;
+    grid-row-start: 9;
+    grid-row-end:12;
+    background: yellow;
+
+}
+
+.b-13 {
+    grid-column-start: 8;
+    grid-column-end: 12;
+    grid-row-start: 8;
+    grid-row-end:12;
+    background: white;
+}
